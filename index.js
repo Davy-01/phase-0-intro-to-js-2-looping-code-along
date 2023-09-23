@@ -6,8 +6,11 @@ function writeCards( names, event ) {
   for ( let i = 0; i < names.length; i++ ) {
     personalCards.push( `Thank you, ${names[i]}, for the wonderful ${event} gift!` )}
   return personalCards}
+  console.log(writeCards(['Guadalupe','Ollie','Aki'],"Surprise"))
 
-function countDown(){
-let numCountdown=11;
-while(numCountdown--){
- console.log(numCountdown)}} 
+
+  let numCountdown=11;
+  while(numCountdown>0){
+   console.log(numCountdown--)} 
+
+
