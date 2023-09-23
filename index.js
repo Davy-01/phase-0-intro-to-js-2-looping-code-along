@@ -9,8 +9,7 @@ function writeCards( names, event ) {
   console.log(writeCards(['Guadalupe','Ollie','Aki'],"Surprise"))
 
 
-  let numCountdown=11;
-  while(numCountdown>0){
-   console.log(numCountdown--)} 
-
-
+  function countDown(){
+    let countDown=10;
+  while(countDown>=0){
+   console.log(countDown--)}}
